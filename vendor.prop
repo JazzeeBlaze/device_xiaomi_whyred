@@ -124,6 +124,7 @@ ro.soc.model=SDM660
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # Display
 debug.sf.disable_backpressure=1
