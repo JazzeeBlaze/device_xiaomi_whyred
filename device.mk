@@ -26,7 +26,9 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)
 
+# Speed up apps
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
