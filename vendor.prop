@@ -181,9 +181,20 @@ ro.vendor.use_data_netmgrd=true
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
-<<<<<<< HEAD
 # RCS
 persist.rcs.supported=0
+
+# Touch Props
+touch.size.scale=1
+touch.size.bias=0 
+touch.distance.calibration=none 
+touch.distance.scale=0 
+touch.coverage.calibration=box 
+touch.gestureMode=spots 
+MultitouchSettleInterval=1ms 
+MultitouchMinDistance=1px 
+TapInterval=1ms
+TapSlop=1px
 
 # Radio
 persist.radio.multisim.config=dsds
