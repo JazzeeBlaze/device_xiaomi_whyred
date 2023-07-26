@@ -31,7 +31,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Speed up apps
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
-    SystemUI
+    SystemUI \
+    Launcher3QuickStep \
 
 # Permissions
 PRODUCT_COPY_FILES += \
