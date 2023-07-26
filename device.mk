@@ -216,8 +216,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
-
-
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
@@ -255,6 +253,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     $(DEVICE_PATH)/gps/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     $(DEVICE_PATH)/gps/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
+
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
 
 # Health
 PRODUCT_PACKAGES += \
