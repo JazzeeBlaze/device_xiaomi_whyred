@@ -5,3 +5,9 @@ ro.surface_flinger.supports_background_blur=0
 media.wfd.max_resolution=7
 
 debug.hwui.renderer=opengl
+
+# Power Saving
+power.saving.mode=1
+pm.sleep_mode=1 
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
