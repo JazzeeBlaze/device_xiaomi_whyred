@@ -160,6 +160,9 @@ persist.vendor.dpm.loglevel=0
 persist.vendor.dpm.nsrm.bkg.evt=3955
 persist.vendor.dpmhalservice.enable=1
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 

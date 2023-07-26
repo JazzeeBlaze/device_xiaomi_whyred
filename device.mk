@@ -212,6 +212,12 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey \
     android.hardware.drm@1.3.vendor
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
+
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
