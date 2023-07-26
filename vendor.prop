@@ -154,6 +154,7 @@ ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
 vendor.display.use_smooth_motion=1
 ro.hwui.render_ahead=20
+debug.sdm.support_writeback=0
 
 # DPM
 persist.vendor.dpm.loglevel=0
