@@ -229,6 +229,9 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti.vendor
 
+# Gcam
+$(call inherit-product-if-exists, vendor/GcamBSG/GcamBSG-vendor.mk)
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
