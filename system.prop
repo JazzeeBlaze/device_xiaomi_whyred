@@ -8,6 +8,10 @@ media.wfd.max_resolution=7
 
 debug.hwui.renderer=opengl
 
+# Props
+persist.sys.disable_rescue=true
+ro.sys.sdcardfs=0
+
 # Power Saving
 power.saving.mode=1
 pm.sleep_mode=1 
